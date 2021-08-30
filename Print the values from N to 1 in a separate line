@@ -1,0 +1,4 @@
+var N = parseInt(userInput[0]);
+for(var i = N; i >= 1; i --) {
+    console.log(i);  
+}  
