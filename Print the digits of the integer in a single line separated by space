@@ -1,0 +1,5 @@
+var n = userInput[0];
+
+n =n.split("").join(" ");
+console.log(n);
+ 
