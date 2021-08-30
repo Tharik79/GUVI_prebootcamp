@@ -1,0 +1,19 @@
+let input = userInput[0];
+let string=userInput[0].split("");
+
+let odd=[];
+let even=[];
+for(i=0; i<string.length; i++)
+{
+if(string[i]%2==0)
+{
+   even = even + string[i];
+}
+
+else
+{
+   odd = odd + string[i];
+}
+}
+console.log(even.split("").join(" "));
+console.log(odd.split("").join(" "));
