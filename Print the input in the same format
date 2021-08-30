@@ -1,0 +1,9 @@
+var n1 = userInput[0];
+
+  console.log(n1);
+  
+var n2 = userInput[1];
+console.log(n2);
+var n3 = userInput[2];
+
+console.log(n3);
