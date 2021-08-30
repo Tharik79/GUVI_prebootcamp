@@ -1,0 +1,5 @@
+var a = parseInt(userInput[0]);
+var inMeter = a * 1000;
+var inCm = a * 100000;
+console.log (inMeter);
+console.log(inCm);
