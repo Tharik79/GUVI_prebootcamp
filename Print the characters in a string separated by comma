@@ -1,0 +1,4 @@
+var str = userInput[0].split("");
+var newStr = str.join(",");
+console.log(newStr);
+ 
