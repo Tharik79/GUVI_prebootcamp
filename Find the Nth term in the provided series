@@ -1,0 +1,9 @@
+var N = parseInt(userInput[0]);
+
+if(N==0 && N<0){
+    console.log(Error);
+ }else
+ {
+     N = N*N;
+     console.log(N);
+ }
