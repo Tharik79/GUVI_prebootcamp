@@ -1,0 +1,12 @@
+let year = parseInt(userInput[0]);
+function checkLeapYear(year) {
+
+    const leap = new Date(year, 1, 29).getDate() === 29;
+    if (leap) {
+        console.log('Y');
+    } else {
+        console.log('N');
+        
+     }
+}
+checkLeapYear(year);
