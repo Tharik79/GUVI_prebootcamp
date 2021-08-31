@@ -1,0 +1,6 @@
+ var radius = parseFloat(userInput[0]);
+ 
+ var circumference = 2 * 3.14159265359 * radius;
+ console.log(circumference.toFixed(2));
+
+ 
