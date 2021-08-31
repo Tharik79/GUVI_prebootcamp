@@ -1,0 +1,7 @@
+var num = userInput[0].split(" ");
+var P = parseFloat(num[0]);
+var I = parseFloat(num[1]);
+var R = parseFloat(num[2]);
+
+var SI = (P * I * R)/100;
+console.log(SI.toFixed(2));
