@@ -1,0 +1,6 @@
+var a = parseFloat(userInput[0]);
+
+var area = 1.732050807/4 *(a*a);
+  console.log(area.toFixed(2));
+  
+  
