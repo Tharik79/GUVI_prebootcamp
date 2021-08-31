@@ -1,0 +1,9 @@
+var num= userInput[0];
+var n=num;
+var result=[];
+for (i=1;i<=n;i++)
+{
+   result.push(i*9)// push value to empty array
+   
+}
+ console.log(result.join(' '));
