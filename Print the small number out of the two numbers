@@ -1,0 +1,11 @@
+var data = userInput[0].split(" ");
+
+var a = parseInt(data[0]);
+var b = parseInt(data[1]);
+
+if (a>b) {
+    console.log(b);
+} else
+{ console.log(a);
+
+}
