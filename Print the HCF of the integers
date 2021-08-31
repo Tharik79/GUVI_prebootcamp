@@ -1,0 +1,12 @@
+let num = userInput[0].split(" ");
+ let HCF;
+ let n1 = parseInt(num[0]);
+ let n2 = parseInt(num[1]);
+ 
+for(let i = 1; i <= n1 && i <= n2; i++) {
+    
+if( n1 % i == 0 && n2 % i == 0) {
+        HCF = i;
+    }
+    }
+console.log(HCF);
