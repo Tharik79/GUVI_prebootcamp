@@ -1,0 +1,5 @@
+var value = userInput[0];
+
+var result = (value * 9/5) + 32;
+
+console.log(parseFloat(result));
