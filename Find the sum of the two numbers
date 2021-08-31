@@ -1,0 +1,6 @@
+var n1 = +userInput[0];
+var n2 = +userInput[1];
+var add = n1 + n2;
+console.log(add);
+
+  
