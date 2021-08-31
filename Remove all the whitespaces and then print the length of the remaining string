@@ -1,0 +1,3 @@
+var name = userInput[0].split(" ");
+var str = name.join('');
+console.log(str.length);
